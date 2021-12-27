@@ -1,0 +1,127 @@
+# n=int(input())
+# l=[]
+# for i in range(n):
+#     e=int(input('enter'))
+#     l.append(e)
+# m=max(l)
+# print(l)
+# b=len(l)
+# e=[]
+# for i in range(0,b):
+#     if l[i]==m:
+#         continue
+#     else :
+#         e.append(l[i])
+# print(e)
+# print(max(e))
+
+    
+# l=[]
+# for i in range(3):
+#     l1=[]
+#     name=input()
+#     mark=float(input())
+#     l1.append(name)
+#     l1.append(mark)
+#     l.append(l1)
+# print(l)
+
+# for i in range(len(l)):
+#     print(i)
+#     print(l[i][1:2])
+
+
+# l=[['jkdf', 3.6], ['df', 2.3], ['df', 8.9]]
+# print('djfkd')
+# print('jkfdjg',l[0][1:2])
+
+# for i in range(len(l)):
+#     for j in range(i):
+        
+
+# def count_substring(string, sub_string):
+#     count = 0
+#     for i in range(len(string)):
+#         if string[i:].startswith(sub_string):
+#             count += 1
+#     return count
+
+# s=input()
+# a=b=c=d=e=None
+# for i in s:
+#     if i.isalnum():
+#         a=True
+#     if i.isalpha():
+#         b=True
+#     if i.isdigit():
+#         c=True
+#     if i.islower():
+#         d=True
+#     if i.isupper():
+#         e=True
+        
+# print(a,b,c,d,e,sep='\n')
+        
+    
+# def checkStr(string, fn):
+#         for c in string:
+#                 if fn(c):
+#                         return True
+#         return False
+
+# if __name__ == '__main__':
+#         s = input()
+#         for fn in [str.isalnum, str.isalpha, str.isdigit, str.islower, str.isupper]:
+#                 print(checkStr(s, fn))
+
+# n = int(input())
+# ints = input().split()
+# t = tuple(int(i) for i in ints)
+# print(t)
+# print(hash(t))
+
+
+# Students = dict()
+# for i in range(int(input())):
+#     m=0
+#     line = list(input().split())
+#     name= line[0]
+#     k=len(line[1:])
+#     for i in range(0,len(line[1:])):
+#         m+=float(i)
+#         marks=m/len(line[1:])
+        
+#     Students[name] = marks
+# print('%.2f' % Students[input()])
+
+
+
+# Students = dict()
+# for i in range(int(input())):
+#     m=0
+#     line = list(input().split())
+#     name= line[0]
+#     k=len(line[1:])
+#     for i in range(1,4):
+#         m+=float(line[i])
+#     mar=m/k  
+#     print(mar)
+#     Students[name] = mar
+# print('%.2f' % Students[input()])
+
+
+
+
+
+# def solve(s):
+#     k=''
+#     s1=s.split(' ')
+#     l=list(map(lambda i:i.capitalize(),s1))
+#     for i in l:
+#         k+=i+' '
+       
+#     return k
+
+
+a='fsfdafd'
+print('a' in a)
