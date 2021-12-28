@@ -120,8 +120,49 @@
 #     for i in l:
 #         k+=i+' '
        
-#     return k
+# #     return k
+# import textwrap
+# '\n'.join(textwrap.wrap(string,maxwidth))
 
 
-a='fsfdafd'
-print('a' in a)
+
+
+# l=[1,2]
+# l1=[3,4]
+# for i in l:
+#     for j in l1:
+#         print(tuple((i,j)))
+
+# import textwrap
+# a='asdf 2'.split()
+# k=[]
+# for i in a[0]:
+#     for j in a[0]:
+#         if i==j:
+#             continue
+#         else:
+#             k1=i+j
+            
+#             k.append(k1)
+            
+           
+
+# k.sort()
+# s=''
+# for i in k:
+#     s+=i
+#     print(s)
+#     s=''
+        
+
+# from itertools import permutations
+# print( sorted(list(permutations(['1','2','3']))))
+
+
+from collections import defaultdict
+d = defaultdict(list)
+d['python'].append("awesome")
+d['something-else'].append("not relevant")
+d['python'].append("language")
+for i in d.items():
+    print(i)
